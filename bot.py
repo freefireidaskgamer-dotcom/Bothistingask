@@ -8,7 +8,7 @@ import threading
 import random
 import os
 
-TOKEN = os.getenv('BOT_TOKEN', '8765709173:AAGoKT_TTk3xVI27GEijm_Cr7pUYMilDdyw').strip()
+TOKEN = os.getenv('BOT_TOKEN', '8855463512:AAHtzqo-mUEmM0Qz73XqX5uKFizEq1LRjRY').strip()
 if not TOKEN:
     raise RuntimeError(
         "Set BOT_TOKEN environment variable with a NEW BotFather token."

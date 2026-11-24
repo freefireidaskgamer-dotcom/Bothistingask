@@ -24,7 +24,7 @@ def health_check():
     }, 200
 
 
-TOKEN = os.getenv('BOT_TOKEN', '9031674115:AAHpSd-U31B9GTgY4lyAstorXa_OxSEEUhY').strip()
+TOKEN = os.getenv('BOT_TOKEN', '9031674115:AAFJHjQxn-yDwaiMnUxrO-2ziO2aCTiNIYk').strip()
 if not TOKEN:
     raise RuntimeError(
         "Set BOT_TOKEN environment variable with a NEW BotFather token."

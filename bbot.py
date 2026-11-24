@@ -10,7 +10,7 @@ import os
 import random
 import string
 
-TOKEN = os.getenv('BOT_TOKEN', '8855463512:AAGrParhOYQF7MxXn8eZEyHBYFnAPIcEuWs').strip()
+TOKEN = os.getenv('BOT_TOKEN', '9031674115:AAHpSd-U31B9GTgY4lyAstorXa_OxSEEUhY').strip()
 if not TOKEN:
     raise RuntimeError(
         "Set BOT_TOKEN environment variable with a NEW BotFather token."
